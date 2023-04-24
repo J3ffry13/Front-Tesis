@@ -21,6 +21,17 @@ def imprimir_datos():
 
 # Crear la ventana principal
 ventana = tk.Tk()
+ventana.title("Make a Desicion")
+
+# Crear un lienzo con una imagen de fondo
+# canvas = tk.Canvas(ventana, width=800, height=600)
+# canvas.pack()
+# imagen = tk.PhotoImage(file="fon.jpg")
+# canvas.create_image(0, 0, anchor="nw", image=imagen)
+image = tk.PhotoImage(file="xd.jpg") 
+ 
+label = tk.Label(ventana, image = image)
+label.pack()
 
 # Crear los inputs con tamaño de letra de 14 puntos
 input1 = tk.Entry(ventana, font=("Arial", 14))
