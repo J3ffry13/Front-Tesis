@@ -19,7 +19,7 @@ def login():
 
 # Crear ventana
 window = tk.Tk()
-window.title("Inicio de Sesión")
+window.title("SmartDecider")
 
 # Obtener el tamaño de la pantalla
 screen_width = window.winfo_screenwidth()

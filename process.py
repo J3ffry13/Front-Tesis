@@ -59,7 +59,7 @@ def principal(desicion):
 
     # Crear la ventana y establecer su tamaño
     ventana = tk.Tk()
-    ventana.title("Toma de Decisiones")
+    ventana.title("SmartDecider")
     
     # Configurar el tamaño y la posición de la ventana
     ventana.geometry(f"{window_width}x{window_height}+{position_left}+{position_top}")

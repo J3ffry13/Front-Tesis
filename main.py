@@ -48,7 +48,7 @@ def analyze_decisions():
 
 # Crear la ventana principal de la interfaz gráfica
 window = tk.Tk()
-window.title("Toma de Decisiones")
+window.title("SmartDecider")
 
 # Obtener el tamaño de la pantalla
 screen_width = window.winfo_screenwidth()
